@@ -28,3 +28,22 @@ nav ul li{
 nav ul li a{
     color: white;
 }
+
+.row{
+    clear: both;
+}
+
+.col{
+    border-radius: 5px;
+    background: #888;
+    color: white;
+    padding: 10px;
+    margin: 1%;
+    float: left;
+    width: 30%;
+
+}
+
+footer{
+    clear: both;
+}
