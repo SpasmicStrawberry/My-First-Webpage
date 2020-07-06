@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 header{
     background: #999;
     padding: 10px 10px 0 ;
@@ -9,13 +13,10 @@ header h1{
     display: inline;
 }
 
-body{
-    margin: 0;
-}
-
 nav ul{
     margin: 0;
     display: inline;
+    padding: 0 0 0 15px;
 }
 nav ul li{
     background: black;
