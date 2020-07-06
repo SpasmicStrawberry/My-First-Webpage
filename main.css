@@ -10,3 +10,23 @@ p{
     color: white;
     padding: 10px;
 }
+header{
+    background: white;
+    color: black;
+}
+body{
+    margin: 0;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0px 0px 0px 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+ul{
+    display: inline-block;
+    lsit
+}
