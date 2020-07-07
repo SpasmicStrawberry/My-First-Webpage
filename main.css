@@ -3,9 +3,28 @@ body {
 }
 
 nav {
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.namebrand {
+    float: left;
+}
+
+.namebrand img {
+    max-width: 150px;
+}
+
+.namebrand {
+    display: flex;
 }
 
 .namebrand-text {
-    
+    margin: 0 50px;
+    font-size: x-large;
+}
+
+.link-wrapper {
+    float: right;
 }
