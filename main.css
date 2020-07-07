@@ -3,14 +3,15 @@ body {
     font-family: calibri;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
+.decoration{
+    padding: 20px 40px;
+    background-color: rgb(99, 35, 158);
 }
 
-.namebrand {
-    float: left;
+nav {
+    padding: 30px;
+    padding-bottom: 0px;
+    background-color: white;
 }
 
 .namebrand img {
@@ -19,6 +20,8 @@ nav {
 
 .namebrand {
     display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 .namebrand-text {
@@ -26,11 +29,18 @@ nav {
     font-size: x-large;
 }
 
-.link-wrapper {
-    display: flex;
-    float: right;
+.nav-links {
+    position: absolute;
+    top: 220px;
+    left: 280px;
 }
 
-.link-wrapper > nav-links{
-    margin-right: 100px;
+.login {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+
+.link-wrapper div{
+    margin-right: 20px;
 }
