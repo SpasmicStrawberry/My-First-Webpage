@@ -4,10 +4,8 @@ body {
 }
 
 .language {
-    background-color: rgb(212, 211, 211);
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 23px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
 }
 
 .language img {
@@ -31,7 +29,7 @@ nav {
     background-color: rgb(24, 93, 150);
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     clear: both;
 }
 
@@ -60,9 +58,15 @@ nav a {
 
 .namebrand {
     display: flex;
-    margin-left: 50px;
-    margin-top: 20px;
-    float: left;
+    background-color: rgb(129, 218, 221);
+    justify-content: space-between;
+}
+
+.namebrand > .left {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
 }
 
 .namebrand-image img{
@@ -71,8 +75,7 @@ nav a {
 
 .namebrand-text {
     color: rgb(24, 93, 150);
-    margin-top: 5px;
-    margin-left: 20px;
+    margin: 10px;
     font-size: larger;
 }
 
@@ -82,4 +85,23 @@ nav a {
 
 .namebrand-text h5 {
     margin-top: 0px;
+}
+
+.namebrand > .right {
+    margin-top: 33px;
+    margin-right: 150px;
+}
+
+.slogan {
+    font-family: Verdana;
+    color: rgb(24, 93, 150);
+}
+
+.slogan h1 {
+    margin-bottom: 0;
+}
+
+.slogan h2 {
+    margin-top: 0;
+    font-size: 1.25em;
 }
