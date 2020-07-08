@@ -1,0 +1,85 @@
+body {
+    margin: 0 100px;
+    font-family: calibri;
+}
+
+.language {
+    background-color: rgb(212, 211, 211);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 23px;
+}
+
+.language img {
+    max-width: 25px;
+    margin-right: 10px;
+}
+
+.language img,a {
+    display: flex;
+    float: right;
+}
+
+.language a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin-right: 40px;
+}
+
+nav {
+    background-color: rgb(24, 93, 150);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    clear: both;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.login {
+    display: flex;
+}
+
+.nav-link-wrapper {
+    margin: 5px 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid white;
+}
+
+.namebrand {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+}
+
+.namebrand-image img{
+    max-width: 150px;
+}
+
+.namebrand-text {
+    color: rgb(24, 93, 150);
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+.namebrand-text h1 {
+    margin-bottom: 0px;
+}
+
+.namebrand-text h5 {
+    margin-top: 0px;
+}
