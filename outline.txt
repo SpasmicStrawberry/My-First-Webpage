@@ -13,7 +13,7 @@
     name on the right
     (with abreviation on top)
     
-    possibly another image to the right
+    slogan to the right
 
 3. sponsors
     images with clickable links on them
