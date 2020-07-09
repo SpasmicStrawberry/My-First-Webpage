@@ -2,6 +2,8 @@ body {
     margin: 0 100px;
     font-family: calibri;
     min-width: 1000px;
+    width: 85%;
+    height: auto;
 }
 
 .language {
@@ -90,7 +92,7 @@ nav a {
 
 .namebrand > .right {
     margin-top: 33px;
-    margin-right: 150px;
+    margin-right: 50px;
 }
 
 .slogan {
