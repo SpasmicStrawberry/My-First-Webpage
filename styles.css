@@ -9,8 +9,8 @@ body {
 .language {
     display: flex;
     background-color: rgb(255, 255, 255);
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .language img {
@@ -112,11 +112,11 @@ nav a {
 }
 
 .slideshow-wrapper {
-    max-width: 1000px;
+    max-width: 50%;
     position: relative;
     margin: auto;
     margin-top: 20px;
-    margin-right: -300px;
+    box-shadow: 20px;
 }
 
 .slides {
@@ -143,7 +143,7 @@ nav a {
 }
 
 .next {
-    right: 334px;
+    left: 625px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -153,14 +153,6 @@ nav a {
 
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
-}
-
-.numbertext {
-    color: black;
-    font-size: 25px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
 }
 
 .dot {
@@ -193,4 +185,23 @@ nav a {
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+.sponsor-wrapper > .logos > .logo-wrapper {
+    float: left;
+    margin: 0;
+    border: 1px solid transparent;
+    transition: border 0.5s;
+}
+
+.logos img {
+    max-width: 200px;
+}
+
+.sponsor-wrapper > .logos > .logo-wrapper:hover {
+    border: 1px solid black;
+}
+
+.sponsor-heading {
+    border-bottom: 1px solid rgb(185, 183, 183);
 }
