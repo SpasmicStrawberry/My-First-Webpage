@@ -214,3 +214,7 @@ nav a {
 .contact-heading {
     border-bottom: 1px solid rgb(185, 183, 183);
 }
+
+.event-wrapper h2 {
+    border-bottom: 1px solid rgb(185, 183, 183);
+}
