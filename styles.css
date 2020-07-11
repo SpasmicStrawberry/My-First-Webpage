@@ -23,6 +23,7 @@ body {
     color: black;
     font-size: large;
     margin-right: 40px;
+    font-weight: bold;
 }
 
 nav {
@@ -203,5 +204,13 @@ nav a {
 }
 
 .sponsor-heading {
+    border-bottom: 1px solid rgb(185, 183, 183);
+}
+
+.about-heading {
+    border-bottom: 1px solid rgb(185, 183, 183);
+}
+
+.contact-heading {
     border-bottom: 1px solid rgb(185, 183, 183);
 }
