@@ -1,19 +1,22 @@
-1. Nav bar
-    home
-    about
-    community
-    sponsers
-    other
+Home screen
+    1. Nav bar
+        home
+        about
+        community
+        sponsers
+        other
 
-    log in 
-    register
+        log in 
+        register
 
-2. brand name
-    logo on the left
-    name on the right
-    (with abreviation on top)
-    
-    slogan to the right
+    2. brand name
+        logo on the left
+        name on the right
+        (with abreviation on top)
+        
+        slogan to the right
 
-3. sponsors
-    images with clickable links on them
+    3. The main image
+
+    4. sponsors
+        images with clickable links on them
