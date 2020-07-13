@@ -58,6 +58,11 @@ nav a {
     border-bottom: 1px solid white;
 }
 
+.greeting {
+    border-bottom: 1px solid rgb(185, 183, 183);
+    margin-bottom: 20px;
+}
+
 .namebrand {
     display: flex;
     background-color: rgb(129, 218, 221);
@@ -118,6 +123,7 @@ nav a {
     margin: auto;
     margin-top: 20px;
     box-shadow: 20px;
+    margin-right: 25%;
 }
 
 .slides {
