@@ -225,3 +225,16 @@ nav a {
 .event-wrapper h2 {
     border-bottom: 1px solid rgb(185, 183, 183);
 }
+
+.album-wrapper h2 {
+    border-bottom: 1px solid rgb(185, 183, 183);
+}
+
+.album-wrapper > .albums > .video-wrapper{
+    margin-left: 4%;
+}
+
+.album-wrapper video {
+    width: 300px;
+    height: 168.75px;
+}
