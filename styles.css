@@ -17,6 +17,7 @@ body {
 .language img {
     max-width: 25px;
     margin-right: 10px;
+    max-height: 20px;
 }
 
 .language a {
@@ -226,7 +227,7 @@ nav a {
     border-bottom: 1px solid rgb(185, 183, 183);
 }
 
-.albums > .row1, .row2{
+.albums > .row1, .albums > .row2{
     display: flex;
 }
 
@@ -236,11 +237,10 @@ nav a {
 
 .video-wrapper {
     margin-bottom: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
 }
 
-.album-wrapper video, img {
+.album-wrapper video, .album-wrapper img {
     width: 300px;
     height: 168.75px;
 }
