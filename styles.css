@@ -226,15 +226,21 @@ nav a {
     border-bottom: 1px solid rgb(185, 183, 183);
 }
 
+.albums > .row1, .row2{
+    display: flex;
+}
+
 .album-wrapper h2 {
     border-bottom: 1px solid rgb(185, 183, 183);
 }
 
-.album-wrapper > .albums > .video-wrapper{
-    margin-left: 4%;
+.video-wrapper {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.album-wrapper video {
+.album-wrapper video, img {
     width: 300px;
     height: 168.75px;
 }
