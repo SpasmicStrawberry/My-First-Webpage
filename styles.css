@@ -134,6 +134,7 @@ nav a {
 
 .slides img {
     max-height: 500px;
+    max-width: 667px;
 }
 
 .prev, .next {
